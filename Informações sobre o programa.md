@@ -1,4 +1,5 @@
-# Jogo 'JoKenPo' (Pedra - Papel - Tesoura) Onde o usuário joga contra o computador e ao final mostra o resultado:
+# Jogo 'JoKenPo' (Pedra - Papel - Tesoura) 
+Onde o usuário joga contra o computador e ao final mostra o resultado:
 Se o Jogador venceu, 
 Se o Computador venceu ou
 Se deu Empate.
