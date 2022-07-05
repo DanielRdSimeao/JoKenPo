@@ -8,8 +8,8 @@ Este programa também conta com um "contador" de vitórias e derrotas, onde a ca
 contabilizando quantas vitórias  e  quantas derrotas  o  jogador obteve. Isto após  o  usuário ter informado que deseja 
 continuar jogando.
 
-O programa está aberto para novas sugestões! Caso tenha alguma idea não deixe de comentar comigo, ficarei feliz em saber
-que existem pessoas querendo ajudar. 
+O programa está aberto para novas sugestões! Caso tenha alguma ideia não deixe de comentar comigo, ficarei feliz em saber
+que existem pessoas querendo ajudar a melhorar o programa. 
 Meio de contato via Discord.
 Privado: Sir Tortuga#4015.
 Servidor: https://discord.gg/paXSz9ERmw (The Last Republic)
