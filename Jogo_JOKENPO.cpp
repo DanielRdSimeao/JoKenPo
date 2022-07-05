@@ -6,7 +6,7 @@
 
 /*
  * Jogo Pedra - Papel - Tesoura (JoKenPo)
- * @author: Daniel Rodrigues Simeão
+ * @author: Daniel Rodrigues SimeÃ£o
  */
 
 enum {
@@ -29,16 +29,16 @@ int main () {
 	do {
 		system ("cls");
 		
-		// Contador de VITÓRIAS e DERROTAS
+		// Contador de    VITÃ“RIAS       e                  DERROTAS
 		textColor(WHITE);
 		printf("\n\t *****************"); printf("\t   *****************");
 		printf("\n\t ** Contador de **"); printf("\t   ** Contador de **");
-		printf("\n\t *** Vitórias ****"); printf("\t   *** Derrotas ****");
+		printf("\n\t *** VitÃ³rias ****"); printf("\t   *** Derrotas ****");
 		printf("\n\t *******"); textColor(GREEN); printf(" %d ", contadorV); textColor(WHITE); printf("*******");                
-										  printf("\t   *******"); textColor(RED); printf(" %d ", contadorD); textColor(WHITE); printf("*******");
+						  printf("\t   *******"); textColor(RED); printf(" %d ", contadorD); textColor(WHITE); printf("*******");
 		printf("\n\t *****************"); printf("\t   *****************");
 		
-		// Informações na tela.
+		// InformaÃ§Ãµes na tela.
 		int jogador, computador;
 		RepeteOp:
 		printf("\n\n  ========== JoKenPo ==========");
@@ -46,7 +46,7 @@ int main () {
 		printf("\n | 2. Papel");
 		printf("\n | 3. Tesoura");
 		printf("\n |=============================");
-		printf("\n | Digite a opção desejada: "); scanf("%d", &jogador);	
+		printf("\n | Digite a opÃ§Ã£o desejada: "); scanf("%d", &jogador);	
 		printf("  =============================\n\n");
 		
 		// Switch do jogador.
@@ -64,14 +64,14 @@ int main () {
 			break;
 			
 			default: {
-				printf(" *Opção inválida!\n"); goto RepeteOp;
+				printf(" *OpÃ§Ã£o invÃ¡lida!\n"); goto RepeteOp;
 			break;
 			}
 		}
 		
-		// Lógica do computador.
+		// LÃ³gica do computador.
 		srand(time(NULL));
-		computador = rand()%3+1; // Gera um número aleatorio entre 1 e 3.
+		computador = rand()%3+1; // Gera um nÃºmero aleatorio entre 1 e 3.
 		// Switch do computador.
 		switch(computador) {
 			case 1:
@@ -87,7 +87,7 @@ int main () {
 			break;
 		}
 		
-		// Lógica para determinar o vencedor.
+		// LÃ³gica para determinar o vencedor.
 		if (jogador == computador) {
 			printf("\n ->|Resultado: Empate.");
 		}
@@ -106,6 +106,6 @@ int main () {
 		
 		printf("\n\n");
 		system ("pause");
-		printf("\n Deseja continuar jogando ?\n 0 - Não.\n 1 - Sim.\n Escolha: "); scanf("%d", &decisao);
+		printf("\n Deseja continuar jogando ?\n 0 - NÃ£o.\n 1 - Sim.\n Escolha: "); scanf("%d", &decisao);
 	} while (decisao);
 }
